@@ -1,8 +1,10 @@
 ---
 content_type: resource
 description: ''
-file: /media/https%3A/open-learning-course-data-rc.s3.amazonaws.com/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/cc354eb3c37197596b5dd9a89acecb75_FKp-6sojt9A.pdf
+file: /media/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/cc354eb3c37197596b5dd9a89acecb75_FKp-6sojt9A.pdf
 file_type: application/pdf
+learning_resource_types: []
+ocw_type: OCWFile
 resourcetype: Document
 title: 3play pdf file
 uid: cc354eb3-c371-9759-6b5d-d9a89acecb75

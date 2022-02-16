@@ -1,12 +1,15 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: In-Class Questions and Video Solutions
+parent_type: CourseSection
 parent_uid: cc74bf5b-1a22-399e-2712-70abfff469d7
 title: Lecture 1 Video Solutions
 uid: fc24c5ab-1844-baa9-62f3-e8993e4c4905
 ---
 
-[<< Return to In-Class Questions](http://ocw2.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/in-class-questions-and-video-solutions/)
+[\<\< Return to In-Class Questions]({{< baseurl >}}/pages/in-class-questions-and-video-solutions)
 
 Shell vs. Editor
 ----------------

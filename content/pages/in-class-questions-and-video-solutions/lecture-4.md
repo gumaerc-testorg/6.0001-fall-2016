@@ -1,6 +1,9 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: In-Class Questions and Video Solutions
+parent_type: CourseSection
 parent_uid: cc74bf5b-1a22-399e-2712-70abfff469d7
 title: Lecture 4
 uid: 828237fd-efb5-0c69-43b8-3bf16ff40267

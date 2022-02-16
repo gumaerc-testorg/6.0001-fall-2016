@@ -1,5 +1,7 @@
 ---
 content_type: page
+learning_resource_types: []
+ocw_type: CourseSection
 title: In-Class Questions and Video Solutions
 uid: cc74bf5b-1a22-399e-2712-70abfff469d7
 ---
