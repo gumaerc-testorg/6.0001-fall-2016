@@ -16,7 +16,18 @@ uid: f6173231-3f52-9164-402d-295ceb4706e8
     With the below implementation, is the test set "n = 4 | n = -4 | n = 5" path complete?
     
     ```
-    def is_even(n):
+    `def is_even(n):`
+     `"""` 
+     `Returns True if a number is even`
+     `and False if not` 
+     `"""`
+     `if n > 0 and n % 2 == 0:`
+     `return True`
+     `elif n < 0 and n % 2 == 0:`
+     `return True`
+     `else:` 
+     `return False`
+    
     ```
     
     {{< quiz_multiple_choice questionId="Q1_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="true" >}}&nbsp;Yes&nbsp;{{< /quiz_choice >}}
@@ -41,7 +52,18 @@ With the above implementation, which value for n is incorrectly labeled by is\_e
     Below is a piece of code and an error shown when running it. What is the problem?
     
     ```
-    L = 3
+    `L = 3`
+    `for i in range(len(L)):`
+     `print(i)`
+    
+    `ERROR MESSAGE:`
+    
+     `File "C:/Users/Ana/.spyder2-py3/temp.py", line 2, in` 
+     `for i in range(len(L)):`
+    
+    `TypeError: object of type 'int' has no len()`
+    
+    
     ```
     
     {{< quiz_multiple_choice questionId="Q3_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp;You are not allowed to name an integer with the variable name L&nbsp;{{< /quiz_choice >}}
@@ -55,7 +77,17 @@ With the above implementation, which value for n is incorrectly labeled by is\_e
     If the user enters "twenty" in the code below what does the program do?
     
     ```
-    try:
+    `try:`
+     `n = int(input("How old are you? "))`
+     `percent = round(n*100/80, 1)`
+     `print("You've gone through", percent, "% of your life!")`
+    `except ValueError:`
+     `print("Oops, must enter a number.")`
+    `except ZeroDivisionError:`
+     `print("Division by zero.")`
+    `except:`
+     `print("Something went very wrong.")`
+    
     ```
     
     {{< quiz_multiple_choice questionId="Q4_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp;prints "You've gone through 25.0 % of your life!"&nbsp;{{< /quiz_choice >}}

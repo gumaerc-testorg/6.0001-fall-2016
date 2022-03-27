@@ -28,7 +28,12 @@ uid: ffd17f7b-b232-3aab-9bf4-1b8697c77ccd
     Using the class definition below, which line creates a new Car object with 4 wheels and 2 doors?
     
     ```
-    class Car(object):
+    `class Car(object):`
+     `def __init__(self, w, d):`
+     `self.wheels = w`
+     `self.doors = d`
+     `self.color = ""`
+    
     ```
     
     {{< quiz_multiple_choice questionId="Q2_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp;`Car(mycar, 4, 2)`&nbsp;{{< /quiz_choice >}}
@@ -44,20 +49,33 @@ uid: ffd17f7b-b232-3aab-9bf4-1b8697c77ccd
     Which of the following methods changes the color of the car, based on the definition below?
     
     ```
-    class Car(object):
+    `class Car(object):`
+     `def __init__(self, w, d):`
+     `self.wheels = w`
+     `self.doors = d`
+     `self.color = ""`
+    
     ```
     
     {{< quiz_multiple_choice questionId="Q3_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp; ```
-     def paint(c):
+     `def paint(c):`
+     `color = c`
+    
     ``` &nbsp;{{< /quiz_choice >}}
     {{< quiz_choice isCorrect="false" >}}&nbsp;```
-    def paint(self, c):
+    `def paint(self, c):`
+     `color = c`
+    
     ``` &nbsp;{{< /quiz_choice >}}
     {{< quiz_choice isCorrect="false" >}}&nbsp;```
-    def paint(c):
+    `def paint(c):`
+     `self.c = c`
+    
     ``` &nbsp;{{< /quiz_choice >}}
     {{< quiz_choice isCorrect="true" >}}&nbsp;```
-    def paint(self, c):
+    `def paint(self, c):`
+     `self.color = c`
+    
     ``` &nbsp;{{< /quiz_choice >}}{{< /quiz_choices >}}
     {{< quiz_solution >}}{{< resource b93ae723-a689-f41a-9536-414ea54960e7 >}}{{< /quiz_solution >}}{{< /quiz_multiple_choice >}}
   
@@ -68,7 +86,14 @@ uid: ffd17f7b-b232-3aab-9bf4-1b8697c77ccd
     You create a car with `mycar = Car(4, 2)`. Which is a line of code to change the color of mycar to "red"?
     
     ```
-    class Car(object):
+    `class Car(object):`
+     `def __init__(self, w, d):`
+     `self.wheels = w`
+     `self.doors = d`
+     `self.color = ""`
+     `def paint(self, c):`
+     `self.color = c`
+    
     ```
     
     {{< quiz_multiple_choice questionId="Q4_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp;Car.paint("red")&nbsp;{{< /quiz_choice >}}
@@ -84,7 +109,26 @@ uid: ffd17f7b-b232-3aab-9bf4-1b8697c77ccd
     With the code below, what does the line `print(mycar == yourcar)` print?
     
     ```
-    class Car(object):
+    `class Car(object):`
+     `def __init__(self, w, d):`
+     `self.wheels = w`
+     `self.doors = d`
+     `self.color = ""`
+     `def paint(self, c):`
+     `self.color = c`
+     `def __eq__(self, other):`
+     `if self.wheels == other.wheels and &grave;
+     `self.color == other.color and &grave;
+     `self.doors == other.doors:`
+     `return True`
+     `else:`
+     `return False`
+    
+    `mycar = Car(4, 2)`
+    `mycar.paint("red")`
+    `yourcar = Car(4,2)`
+    `print(mycar == yourcar)`
+    
     ```
     
     {{< quiz_multiple_choice questionId="Q5_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp;True&nbsp;{{< /quiz_choice >}}

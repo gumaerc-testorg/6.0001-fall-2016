@@ -16,7 +16,12 @@ uid: 2d1ecaea-f49e-8ee7-cac3-ea3ce9cbe081
     Examine the code below. What does `always_sunny(('cloudy'), ('cold',))` evaluate to?
     
     ```
-    def always_sunny(t1, t2):
+    `def always_sunny(t1, t2):`
+     `""" t1, t2 are non empty """`
+     `sun = ("sunny","sun")`
+     `first = t1[0] + t2[0]`
+     `return (sun[0], first)`
+    
     ```
     
     {{< quiz_multiple_choice questionId="Q1_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp;('sunny', 'cc')&nbsp;{{< /quiz_choice >}}
@@ -31,7 +36,13 @@ uid: 2d1ecaea-f49e-8ee7-cac3-ea3ce9cbe081
     What is the value of L after you run the code below?
     
     ```
-    L = ["life", "answer", 42, 0]
+    `L = ["life", "answer", 42, 0]`
+    `for thing in L:`
+     `if thing == 0:`
+     `L[thing] = "universe"`
+     `elif thing == 42:`
+     `L[1] = "everything"`
+    
     ```
     
     {{< quiz_multiple_choice questionId="Q2_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp;\["life", "answer", 42, 0\]&nbsp;{{< /quiz_choice >}}
@@ -47,7 +58,15 @@ uid: 2d1ecaea-f49e-8ee7-cac3-ea3ce9cbe081
     What is the value of L3 after you execute all the operations in the code below?
     
     ```
-    L1 = ['re']
+    `L1 = ['re']`
+    `L2 = ['mi']`
+    `L3 = ['do']`
+    `L4 = L1 + L2`
+    `L3.extend(L4)`
+    `L3.sort()`
+    `del(L3[0])`
+    `L3.append(['fa','la'])`
+    
     ```
     
     {{< quiz_multiple_choice questionId="Q3_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="true" >}}&nbsp;\['mi', 're', \['fa', 'la'\]\]&nbsp;{{< /quiz_choice >}}
@@ -62,7 +81,12 @@ uid: 2d1ecaea-f49e-8ee7-cac3-ea3ce9cbe081
     What is the value of brunch after you execute all the operations in the code below?
     
     ```
-    L1 = ["bacon", "eggs"]
+    `L1 = ["bacon", "eggs"]`
+    `L2 = ["toast", "jam"]`
+    `brunch = L1`
+    `L1.append("juice")`
+    `brunch.extend(L2)`
+    
     ```
     
     {{< quiz_multiple_choice questionId="Q4_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp;\['bacon', 'eggs', 'toast', 'jam'\]&nbsp;{{< /quiz_choice >}}

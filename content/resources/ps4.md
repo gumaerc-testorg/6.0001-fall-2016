@@ -9,6 +9,7 @@ learning_resource_types:
 ocw_type: OCWFile
 parent_title: Assignments
 parent_type: CourseSection
+parent_uid: 4f4256e8-99a1-396c-7b78-8c0d1442d6ca
 resourcetype: Other
 title: ps4.zip
 uid: bcfbf5fb-dae3-c9ac-acfa-457c7ad5f46e
