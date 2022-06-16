@@ -4,6 +4,7 @@ description: ''
 end_time: ''
 file: null
 learning_resource_types: []
+ocw_type: ''
 optional_tab_title: ''
 optional_text: ''
 parent_title: Lecture 1
@@ -26,3 +27,6 @@ video_metadata:
 **Description:** This in-class question explains the difference between the IDLE python environment and the shell.
 
 **Instructor:** Dr. Ana Bell
+
+
+

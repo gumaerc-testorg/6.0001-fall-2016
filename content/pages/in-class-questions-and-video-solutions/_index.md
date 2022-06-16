@@ -1,5 +1,7 @@
 ---
 content_type: page
+description: This page contains questions asked during 6.0001 lectures, along with
+  solution videos.
 learning_resource_types: []
 ocw_type: CourseSection
 title: In-Class Questions and Video Solutions
@@ -37,10 +39,10 @@ Video Solutions
 What is computation?
 {{< tdclose >}}
 {{< tdopen >}}
-[In-Class questions for Lecture 1]({{< baseurl >}}/pages/in-class-questions-and-video-solutions/lecture-1)
+{{% resource_link 021d8a0e-70c6-4737-bc1f-315eea727f84 "In-Class questions for Lecture 1" %}}
 {{< tdclose >}}
 {{< tdopen >}}
-[Video Solutions for Lecture 1]({{< baseurl >}}/pages/in-class-questions-and-video-solutions/lecture-1-video-solutions)
+{{% resource_link fc24c5ab-1844-baa9-62f3-e8993e4c4905 "Video Solutions for Lecture 1" %}}
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -52,10 +54,10 @@ What is computation?
 Branching and Iteration
 {{< tdclose >}}
 {{< tdopen >}}
-[In-Class questions for Lecture 2]({{< baseurl >}}/pages/in-class-questions-and-video-solutions/lecture-2)
+{{% resource_link 666db218-db6d-8103-cdcf-41e2960132be "In-Class questions for Lecture 2" %}}
 {{< tdclose >}}
 {{< tdopen >}}
-[Video Solutions for Lecture 2]({{< baseurl >}}/pages/in-class-questions-and-video-solutions/lecture-2-video-solutions)
+{{% resource_link 01c07d8f-bd40-6440-2253-a19dcc1754ea "Video Solutions for Lecture 2" %}}
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -67,10 +69,10 @@ Branching and Iteration
 String Manipulation, Guess and check, Approximations, Bisection
 {{< tdclose >}}
 {{< tdopen >}}
-[In-Class questions for Lecture 3]({{< baseurl >}}/pages/in-class-questions-and-video-solutions/lecture-3)
+{{% resource_link 6f345174-e0dc-c7e8-1d42-cb983600c3b0 "In-Class questions for Lecture 3" %}}
 {{< tdclose >}}
 {{< tdopen >}}
-[Video Solutions for Lecture 3]({{< baseurl >}}/pages/in-class-questions-and-video-solutions/lecture-3-video-solutions)
+{{% resource_link 86807bcd-f508-e055-618e-74f3d00e6bc7 "Video Solutions for Lecture 3" %}}
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -82,10 +84,10 @@ String Manipulation, Guess and check, Approximations, Bisection
 Decomposition, Abstractions, Functions
 {{< tdclose >}}
 {{< tdopen >}}
-[In-Class questions for Lecture 4]({{< baseurl >}}/pages/in-class-questions-and-video-solutions/lecture-4)
+{{% resource_link 828237fd-efb5-0c69-43b8-3bf16ff40267 "In-Class questions for Lecture 4" %}}
 {{< tdclose >}}
 {{< tdopen >}}
-[Video Solutions for Lecture 4]({{< baseurl >}}/pages/in-class-questions-and-video-solutions/lecture-4-video-solutions)
+{{% resource_link 0170dc8c-3b84-7dd4-8959-9a073ea30d78 "Video Solutions for Lecture 4" %}}
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -97,10 +99,10 @@ Decomposition, Abstractions, Functions
 Tuples, Lists, Aliasing, Mutability, Cloning
 {{< tdclose >}}
 {{< tdopen >}}
-[In-Class questions for Lecture 5]({{< baseurl >}}/pages/in-class-questions-and-video-solutions/lecture-5)
+{{% resource_link 2d1ecaea-f49e-8ee7-cac3-ea3ce9cbe081 "In-Class questions for Lecture 5" %}}
 {{< tdclose >}}
 {{< tdopen >}}
-[Video Solutions for Lecture 5]({{< baseurl >}}/pages/in-class-questions-and-video-solutions/lecture-5-video-solutions)
+{{% resource_link a57c7786-04ec-0743-8250-f01957eb34b1 "Video Solutions for Lecture 5" %}}
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -112,10 +114,10 @@ Tuples, Lists, Aliasing, Mutability, Cloning
 Testing, Debugging, Exceptions, Assertions
 {{< tdclose >}}
 {{< tdopen >}}
-[In-Class questions for Lecture 7]({{< baseurl >}}/pages/in-class-questions-and-video-solutions/lecture-7)
+{{% resource_link f6173231-3f52-9164-402d-295ceb4706e8 "In-Class questions for Lecture 7" %}}
 {{< tdclose >}}
 {{< tdopen >}}
-[Video Solutions for Lecture 7]({{< baseurl >}}/pages/in-class-questions-and-video-solutions/lecture-7-video-solutions)
+{{% resource_link c7d87e11-79bb-caad-0a2e-edbc7c6c03c8 "Video Solutions for Lecture 7" %}}
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -127,10 +129,10 @@ Testing, Debugging, Exceptions, Assertions
 Object Oriented Programming
 {{< tdclose >}}
 {{< tdopen >}}
-[In-Class questions for Lecture 8]({{< baseurl >}}/pages/in-class-questions-and-video-solutions/lecture-8)
+{{% resource_link ffd17f7b-b232-3aab-9bf4-1b8697c77ccd "In-Class questions for Lecture 8" %}}
 {{< tdclose >}}
 {{< tdopen >}}
-[Video Solutions for Lecture 8]({{< baseurl >}}/pages/in-class-questions-and-video-solutions/lecture-8-video-solutions)
+{{% resource_link c194b3a4-6abc-5e09-e950-3ce3c8d6e987 "Video Solutions for Lecture 8" %}}
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -142,10 +144,10 @@ Object Oriented Programming
 Python Classes and Inheritance
 {{< tdclose >}}
 {{< tdopen >}}
-[In-Class questions for Lecture 9]({{< baseurl >}}/pages/in-class-questions-and-video-solutions/lecture-9)
+{{% resource_link d168b144-bfeb-0cd9-daf8-c345966e90d4 "In-Class questions for Lecture 9" %}}
 {{< tdclose >}}
 {{< tdopen >}}
-[Video Solutions for Lecture 9]({{< baseurl >}}/pages/in-class-questions-and-video-solutions/lecture-9-video-solutions)
+{{% resource_link a105f0a2-2069-6d6d-2ecb-c3a529f3eeaa "Video Solutions for Lecture 9" %}}
 {{< tdclose >}}
 
 {{< trclose >}}

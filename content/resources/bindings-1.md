@@ -4,6 +4,7 @@ description: ''
 end_time: ''
 file: null
 learning_resource_types: []
+ocw_type: ''
 optional_tab_title: ''
 optional_text: ''
 parent_title: Lecture 1 Video Solutions
@@ -26,3 +27,6 @@ video_metadata:
 **Description:** This in-class question explains variable bindings and the order of operations in python.
 
 **Instructor:** Dr. Ana Bell
+
+
+

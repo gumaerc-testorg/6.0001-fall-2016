@@ -1,5 +1,6 @@
 ---
 content_type: page
+description: This page contains in-class questions for Lecture 1.
 learning_resource_types: []
 ocw_type: CourseSection
 parent_title: In-Class Questions and Video Solutions

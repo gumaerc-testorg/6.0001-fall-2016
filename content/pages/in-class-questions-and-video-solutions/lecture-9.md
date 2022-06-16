@@ -1,5 +1,6 @@
 ---
 content_type: page
+description: This page contains in-class questions for Lecture 9.
 learning_resource_types: []
 ocw_type: CourseSection
 parent_title: In-Class Questions and Video Solutions
@@ -16,49 +17,20 @@ uid: d168b144-bfeb-0cd9-daf8-c345966e90d4
     Which of the below is a getter method for the number of wheels?
     
     ```
-    `----------------------------------`
-    `----------- Given ------------`
-    `----------------------------------`
-    `class Car(object):`
-     `def __init__(self, w, d):`
-     `self.wheels = w`
-     `self.doors = d`
-     `self.color = ""`
-    `----------------------------------`
-    
-    `(A)    def get_wheels():`
-     `return wheels`
-    
-    `(B)    def get_wheels():`
-     `return self.wheels`
-    
-    `(C)    def get_wheels(self):`
-     `return wheels`
-    
-    `(D)    def get_wheels(self):`
-     `return self.wheels`
-    
+    ----------------------------------
     ```
     
     {{< quiz_multiple_choice questionId="Q1_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp;```
-    `def get_wheels():`
-     `return wheels`
-    
+    def get_wheels():
     ``` &nbsp;{{< /quiz_choice >}}
     {{< quiz_choice isCorrect="false" >}}&nbsp;```
-    `def get_wheels():`
-     `return self.wheels`
-    
+    def get_wheels():
     ``` &nbsp;{{< /quiz_choice >}}
     {{< quiz_choice isCorrect="false" >}}&nbsp;```
-    `def get_wheels(self):`
-     `return wheels`
-    
+    def get_wheels(self):
     ``` &nbsp;{{< /quiz_choice >}}
     {{< quiz_choice isCorrect="true" >}}&nbsp;```
-    `def get_wheels(self):`
-     `return self.wheels`
-    
+    def get_wheels(self):
     ``` &nbsp;{{< /quiz_choice >}}{{< /quiz_choices >}}
     {{< quiz_solution >}}{{< resource c4e79feb-d329-f620-2a0b-250ea3c746aa >}}{{< /quiz_solution >}}{{< /quiz_multiple_choice >}}
   
@@ -69,14 +41,7 @@ uid: d168b144-bfeb-0cd9-daf8-c345966e90d4
     Whate line could replace `____blank____` to create a class that inherets from `Animal` in the code below?
     
     ```
-    `____blank____`
-     `def speak(self):`
-     `print("ruff ruff")`
-    
-    `(line1) d = Dog(7)`
-    `(line2) d.set_name("Ruffles")`
-    `(line3) d.speak()`
-    
+    ____blank____
     ```
     
     {{< quiz_multiple_choice questionId="Q2_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="true" >}}&nbsp;class Dog(Animal):&nbsp;{{< /quiz_choice >}}

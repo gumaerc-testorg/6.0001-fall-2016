@@ -1,5 +1,6 @@
 ---
 content_type: page
+description: This page contains videos of solutions to in-class exercises.
 learning_resource_types: []
 ocw_type: CourseSection
 parent_title: In-Class Questions and Video Solutions
@@ -9,7 +10,7 @@ title: Lecture 8 Video Solutions
 uid: c194b3a4-6abc-5e09-e950-3ce3c8d6e987
 ---
 
-[\<\< Return to In-Class Questions]({{< baseurl >}}/pages/in-class-questions-and-video-solutions)
+{{% resource_link "cc74bf5b-1a22-399e-2712-70abfff469d7" "« Return to In-Class Questions" %}}
 
 Class Definition
 ----------------

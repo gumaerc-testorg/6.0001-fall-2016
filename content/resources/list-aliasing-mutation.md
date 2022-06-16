@@ -4,6 +4,7 @@ description: ''
 end_time: ''
 file: null
 learning_resource_types: []
+ocw_type: ''
 optional_tab_title: ''
 optional_text: ''
 parent_title: Lecture 5
@@ -26,3 +27,6 @@ video_metadata:
 **Description:** This in-class exercise demonstrates list how aliasing affects other list operations in Python.
 
 **Instructor:** Dr. Ana Bell
+
+
+

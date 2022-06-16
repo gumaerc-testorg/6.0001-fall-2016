@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: ''
-file: /media/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/b45d57fef003a927b19c3e076fc18053_-jjUoTiaSHw.srt
+file: /courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/b45d57fef003a927b19c3e076fc18053_-jjUoTiaSHw.srt
 file_type: application/x-subrip
 learning_resource_types: []
 ocw_type: OCWFile
