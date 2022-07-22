@@ -5,6 +5,7 @@ file: /courses/6-0001-introduction-to-computer-science-and-programming-in-python
 file_type: text/python-source
 learning_resource_types:
 - Lecture Notes
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWFile
 parent_title: Lecture Slides and Code
 parent_type: CourseSection
@@ -14,5 +15,3 @@ title: lec9_inheritance.py
 uid: bf8e8195-044d-5f6a-efc1-a455968e2f3e
 ---
 This is special file Code for Lecture 9.
-
-

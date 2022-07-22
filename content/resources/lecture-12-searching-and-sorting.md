@@ -5,6 +5,7 @@ end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: ''
 optional_tab_title: ''
 optional_text: ''
@@ -28,6 +29,4 @@ video_metadata:
 **Description:** In this lecture, Prof. Grimson explains basic search and sort algorithms, including linear search, bisection search, bubble sort, selection sort, and merge sort.
 
 **Instructor:** Prof. Eric Grimson
-
-
 

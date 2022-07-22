@@ -5,6 +5,7 @@ end_time: ''
 file: null
 learning_resource_types:
 - Lecture Videos
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: ''
 optional_tab_title: ''
 optional_text: ''
@@ -28,6 +29,4 @@ video_metadata:
 **Description:** In this lecture, Dr. Bell introduces the theory of computation and explains some aspects of computational thinking. Programming languages are discussed, with an emphasis on basic Python syntax and data structures.
 
 **Instructor:** Dr. Ana Bell
-
-
 
