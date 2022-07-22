@@ -1,12 +1,16 @@
 ---
 content_type: page
+description: This page contains videos of solutions to in-class exercises.
+learning_resource_types: []
+ocw_type: CourseSection
 parent_title: In-Class Questions and Video Solutions
+parent_type: CourseSection
 parent_uid: cc74bf5b-1a22-399e-2712-70abfff469d7
 title: Lecture 2 Video Solutions
 uid: 01c07d8f-bd40-6440-2253-a19dcc1754ea
 ---
 
-[<< Return to In-Class Questions](http://ocw2.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/in-class-questions-and-video-solutions/)
+{{% resource_link "cc74bf5b-1a22-399e-2712-70abfff469d7" "« Return to In-Class Questions" %}}
 
 Strings
 -------
