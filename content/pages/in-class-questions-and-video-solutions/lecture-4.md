@@ -9,7 +9,6 @@ parent_uid: cc74bf5b-1a22-399e-2712-70abfff469d7
 title: Lecture 4
 uid: 828237fd-efb5-0c69-43b8-3bf16ff40267
 ---
-
 1.  ### Function Calls
     
       
@@ -18,6 +17,15 @@ uid: 828237fd-efb5-0c69-43b8-3bf16ff40267
     
     ```
     def add(x, y):
+     return x+y
+    
+    def mult(x, y):
+     print(x*y)
+    
+    add(1,2)
+    print(add(2,3))
+    mult(3,4)
+    print(mult(4,5))
     ```
     
       
@@ -35,6 +43,14 @@ uid: 828237fd-efb5-0c69-43b8-3bf16ff40267
     
     ```
     def sq(func, x):
+     y = x**2
+     return func(y)
+    
+    def f(x):
+     return x**2
+    
+    calc = sq(f, 2)
+    print(calc)
     ```
     
     {{< quiz_multiple_choice questionId="Q2_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp;4&nbsp;{{< /quiz_choice >}}
