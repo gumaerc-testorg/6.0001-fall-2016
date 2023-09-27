@@ -9,7 +9,6 @@ parent_uid: cc74bf5b-1a22-399e-2712-70abfff469d7
 title: Lecture 9
 uid: d168b144-bfeb-0cd9-daf8-c345966e90d4
 ---
-
 1.  ### Getters and Setters
     
       
@@ -18,20 +17,41 @@ uid: d168b144-bfeb-0cd9-daf8-c345966e90d4
     
     ```
     ----------------------------------
+    ----------- Given ------------
+    ----------------------------------
+    class Car(object):
+     def __init__(self, w, d):
+     self.wheels = w
+     self.doors = d
+     self.color = ""
+    ----------------------------------
+    
+    (A)    def get_wheels():
+     return wheels
+    
+    (B)    def get_wheels():
+     return self.wheels
+    
+    (C)    def get_wheels(self):
+     return wheels
+    
+    (D)    def get_wheels(self):
+     return self.wheels
+    
     ```
     
-    {{< quiz_multiple_choice questionId="Q1_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp;```
+    {{< quiz_multiple_choice questionId="Q1_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}
     def get_wheels():
-    ``` &nbsp;{{< /quiz_choice >}}
-    {{< quiz_choice isCorrect="false" >}}&nbsp;```
+    {{< /quiz_choice >}}
+    {{< quiz_choice isCorrect="false" >}}
     def get_wheels():
-    ``` &nbsp;{{< /quiz_choice >}}
-    {{< quiz_choice isCorrect="false" >}}&nbsp;```
+    {{< /quiz_choice >}}
+    {{< quiz_choice isCorrect="false" >}}
     def get_wheels(self):
-    ``` &nbsp;{{< /quiz_choice >}}
-    {{< quiz_choice isCorrect="true" >}}&nbsp;```
+    {{< /quiz_choice >}}
+    {{< quiz_choice isCorrect="true" >}}
     def get_wheels(self):
-    ``` &nbsp;{{< /quiz_choice >}}{{< /quiz_choices >}}
+    {{< /quiz_choice >}}{{< /quiz_choices >}}
     {{< quiz_solution >}}{{< resource c4e79feb-d329-f620-2a0b-250ea3c746aa >}}{{< /quiz_solution >}}{{< /quiz_multiple_choice >}}
   
 3.  ### Subclass
@@ -42,6 +62,13 @@ uid: d168b144-bfeb-0cd9-daf8-c345966e90d4
     
     ```
     ____blank____
+     def speak(self):
+      print("ruff ruff")
+    
+    (line1) d = Dog(7)
+    (line2) d.set_name("Ruffles")
+    (line3) d.speak()
+    
     ```
     
     {{< quiz_multiple_choice questionId="Q2_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="true" >}}&nbsp;class Dog(Animal):&nbsp;{{< /quiz_choice >}}
