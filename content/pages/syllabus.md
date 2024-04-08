@@ -33,7 +33,7 @@ Goals
 Textbook
 --------
 
-The textbook is [![Buy at MIT Press](/images/mp_logo.gif)](https://mitpress.mit.edu/9780262529624) Guttag, John. _Introduction to Computation and Programming Using Python: With Application to Understanding Data Second Edition_. MIT Press, 2016. ISBN: 9780262529624. The book and the course lectures parallel each other, though there is more detail in the book about some topics. It is available both in hard copy and as an e-book.
+The textbook is {{% resource_link "96f240bf-7b06-4c79-b7df-ea4c886f8e46" "![Buy at MIT Press](/images/mp_logo.gif)" %}} Guttag, John. _Introduction to Computation and Programming Using Python: With Application to Understanding Data Second Edition_. MIT Press, 2016. ISBN: 9780262529624. The book and the course lectures parallel each other, though there is more detail in the book about some topics. It is available both in hard copy and as an e-book.
 
 Lecture and Recitation Attendance
 ---------------------------------
