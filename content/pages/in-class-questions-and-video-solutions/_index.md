@@ -1,7 +1,7 @@
 ---
 content_type: page
-description: This page contains questions asked during 6.0001 lectures, along with
-  solution videos.
+description: 'This page contains questions asked during 6.0001 lectures, along with
+  solution videos. '
 draft: false
 learning_resource_types: []
 ocw_type: CourseSection

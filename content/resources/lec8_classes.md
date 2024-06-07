@@ -2,6 +2,7 @@
 content_type: resource
 description: This is special file Code for Lecture 8.
 file: /courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/0705ac9dcc7e637a0e8e9d97eb258a26_lec8_classes.py
+file_size: 3623
 file_type: text/python-source
 learning_resource_types:
 - Lecture Notes

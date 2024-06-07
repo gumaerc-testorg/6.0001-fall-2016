@@ -21,7 +21,7 @@ uid: ffd17f7b-b232-3aab-9bf4-1b8697c77ccd
     {{< quiz_choice isCorrect="false" >}}class A(object){{< /quiz_choice >}}{{< /quiz_choices >}}
     {{< quiz_solution >}}{{< resource 60c82174-3d50-865a-1e3a-3835d4ffc1f1 >}}{{< /quiz_solution >}}{{< /quiz_multiple_choice >}}
   
-3.  ### Class Instance
+2.  ### Class Instance
     
       
     
@@ -29,11 +29,10 @@ uid: ffd17f7b-b232-3aab-9bf4-1b8697c77ccd
     
     ```
     class Car(object):
-     def __init__(self, w, d):
-      self.wheels = w
-      self.doors = d
-      self.color = ""
-    
+        def __init__(self, w, d):
+            self.wheels = w
+            self.doors = d
+            self.color = ""
     ```
     
     {{< quiz_multiple_choice questionId="Q2_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}Car(mycar, 4, 2){{< /quiz_choice >}}
@@ -42,7 +41,7 @@ uid: ffd17f7b-b232-3aab-9bf4-1b8697c77ccd
     {{< quiz_choice isCorrect="false" >}}mycar = Car(2, 4){{< /quiz_choice >}}{{< /quiz_choices >}}
     {{< quiz_solution >}}{{< resource 34ab63b8-2a9d-3db4-12f7-efbf3523f7f2 >}}{{< /quiz_solution >}}{{< /quiz_multiple_choice >}}
   
-5.  ### Methods
+3.  ### Methods
     
       
     
@@ -50,37 +49,35 @@ uid: ffd17f7b-b232-3aab-9bf4-1b8697c77ccd
     
     ```
     class Car(object):
-     def __init__(self, w, d):
-      self.wheels = w
-      self.doors = d
-      self.color = ""
-    
+        def __init__(self, w, d):
+            self.wheels = w
+            self.doors = d
+            self.color = ""
     ```
     
-    
     {{< quiz_multiple_choice questionId="Q3_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}
-     def paint(c):
-     color = c
+    def paint(c):
+        color = c
     
     {{< /quiz_choice >}}
     {{< quiz_choice isCorrect="false" >}}
     def paint(self, c):
-     color = c
+        color = c
     
     {{< /quiz_choice >}}
     {{< quiz_choice isCorrect="false" >}}
     def paint(c):
-     self.c = c
+        self.c = c
     
     {{< /quiz_choice >}}
     {{< quiz_choice isCorrect="true" >}}
     def paint(self, c):
-     self.color = c
+        self.color = c
     
     {{< /quiz_choice >}}{{< /quiz_choices >}}
     {{< quiz_solution >}}{{< resource b93ae723-a689-f41a-9536-414ea54960e7 >}}{{< /quiz_solution >}}{{< /quiz_multiple_choice >}}
   
-7.  ### Method Call
+4.  ### Method Call
     
       
     
@@ -88,13 +85,12 @@ uid: ffd17f7b-b232-3aab-9bf4-1b8697c77ccd
     
     ```
     class Car(object):
-     def __init__(self, w, d):
-      self.wheels = w
-      self.doors = d
-      self.color = ""
-      def paint(self, c):
-       self.color = c
-    
+        def __init__(self, w, d):
+            self.wheels = w
+            self.doors = d
+            self.color = ""
+        def paint(self, c):
+            self.color = c
     ```
     
     {{< quiz_multiple_choice questionId="Q4_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp;Car.paint("red")&nbsp;{{< /quiz_choice >}}
@@ -103,7 +99,7 @@ uid: ffd17f7b-b232-3aab-9bf4-1b8697c77ccd
     {{< quiz_choice isCorrect="false" >}}&nbsp;mycar.paint(Car, "red")&nbsp;{{< /quiz_choice >}}{{< /quiz_choices >}}
     {{< quiz_solution >}}{{< resource 3081a61e-871f-bb60-35b4-014be75c3392 >}}{{< /quiz_solution >}}{{< /quiz_multiple_choice >}}
   
-9.  ### Special Methods
+5.  ### Special Methods
     
       
     
@@ -111,25 +107,24 @@ uid: ffd17f7b-b232-3aab-9bf4-1b8697c77ccd
     
     ```
     class Car(object):
-     def __init__(self, w, d):
-      self.wheels = w
-      self.doors = d
-      self.color = ""
-     def paint(self, c):
-      self.color = c
-     def __eq__(self, other):
-      if self.wheels == other.wheels and \
-      self.color == other.color and \
-      self.doors == other.doors:
-       return True
-      else:
-       return False
+        def __init__(self, w, d):
+            self.wheels = w
+            self.doors = d
+            self.color = ""
+        def paint(self, c):
+            self.color = c
+        def __eq__(self, other):
+            if self.wheels == other.wheels and \
+                self.color == other.color and \
+                self.doors == other.doors:
+                return True
+            else:
+                return False
     
     mycar = Car(4, 2)
     mycar.paint("red")
     yourcar = Car(4,2)
     print(mycar == yourcar)
-    
     ```
     
     {{< quiz_multiple_choice questionId="Q5_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp;True&nbsp;{{< /quiz_choice >}}

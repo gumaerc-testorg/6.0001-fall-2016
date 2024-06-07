@@ -8,7 +8,7 @@ ocw_type: CourseSection
 title: Assignments
 uid: 4f4256e8-99a1-396c-7b78-8c0d1442d6ca
 ---
-Note: The links provided to the software may no longer work. You can download the current and previous versions of {{% resource_link "f7cd0f89-1803-4ee7-9f2a-e6f8a60e4388" "Anaconda" %}} and {{% resource_link "4b5dd50a-9861-47a4-8d83-2945d92ba1f7" "Python" %}} from their respective sites. This course is based on Python 3.5. See the {{% resource_link "da5b1de2-f3a7-41be-926e-e20d75b851b1" "Anaconda for Python 3.5 FAQ" %}}.
+Note: The links provided to the software may no longer work. You can download the current and previous versions of [Anaconda](https://www.anaconda.com/) and [Python](https://www.python.org/) from their respective sites. This course is based on Python 3.5. See the [Anaconda for Python 3.5 FAQ](https://docs.anaconda.com/anaconda/user-guide/faq/#anaconda-faq-35).
 
 Please review the {{% resource_link "f79b8710-4b0a-0f78-7f6a-43413e8eafd0" "6.0001 Style Guide (PDF)" %}} before attempting the problem sets. If you need additional help, please consult the 6.0001 list of {{% resource_link "5dbf3131-e472-f4f0-13b1-896c05b9f7a3" "Programming Resources (PDF)" %}}. Solutions are not available.
 
