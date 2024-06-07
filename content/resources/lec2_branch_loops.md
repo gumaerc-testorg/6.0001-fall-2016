@@ -2,6 +2,7 @@
 content_type: resource
 description: This is special file Code for Lecture 2.
 file: /courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/d6ee838ee4c85ace93a4e170cfd83c03_lec2_branch_loops.py
+file_size: 2880
 file_type: text/python-source
 learning_resource_types:
 - Lecture Notes

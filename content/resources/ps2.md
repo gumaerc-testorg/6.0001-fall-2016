@@ -3,6 +3,7 @@ content_type: resource
 description: 'This resource contains information regarding introduction to computer
   science and programming in Python: Problem set.'
 file: /courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/d57834a8de13b1579b3e5274e520ea14_ps2.zip
+file_size: 458195
 file_type: application/zip
 learning_resource_types:
 - Assignments
