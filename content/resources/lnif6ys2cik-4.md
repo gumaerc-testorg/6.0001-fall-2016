@@ -2,6 +2,7 @@
 content_type: resource
 description: ''
 file: /courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/2a310ecfd4a153dabc1f55c0c9651357_lniF6ys2CIk.vtt
+file_size: 1743
 file_type: application/x-subrip
 learning_resource_types: []
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

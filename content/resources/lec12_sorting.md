@@ -2,6 +2,7 @@
 content_type: resource
 description: This is special file Code for Lecture 12.
 file: /courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/310536cd5f5aa1fc0c11726ce13c565e_lec12_sorting.py
+file_size: 1672
 file_type: text/python-source
 learning_resource_types:
 - Lecture Notes

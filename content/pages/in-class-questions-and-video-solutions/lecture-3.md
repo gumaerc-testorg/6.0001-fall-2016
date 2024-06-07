@@ -1,6 +1,7 @@
 ---
 content_type: page
 description: This page contains in-class questions for Lecture 3.
+draft: false
 learning_resource_types: []
 ocw_type: CourseSection
 parent_title: In-Class Questions and Video Solutions
@@ -34,16 +35,17 @@ uid: 6f345174-e0dc-c7e8-1d42-cb983600c3b0
 3.  ### For Loops with Strings
     
     How many times will the code below print "common letter"?
-    
+
     ```
     s1 = "mit u rock"
     s2 = "i rule mit"
     if len(s1) == len(s2):
-     for char1 in s1:
-     for char2 in s2:
-     if char1 == char2:
-     print("common letter")
-     break
+        for char1 in s1:
+            for char2 in s2:
+                if char1 == char2:
+                    print("common letter")
+                    break
+
     ```
     
     {{< quiz_multiple_choice questionId="Q2_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}&nbsp;0&nbsp;{{< /quiz_choice >}}
