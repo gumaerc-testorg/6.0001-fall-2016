@@ -2,7 +2,7 @@
 content_type: resource
 description: 'This resource contains information regarding introduction to computer
   science and programming in Python: Problem set.'
-file: /courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/bcfbf5fbdae3c9acacfa457c7ad5f46e_ps4.zip
+file: /ol-ocw-studio-app/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/bcfbf5fbdae3c9acacfa457c7ad5f46e_ps4.zip
 file_size: 842375
 file_type: application/zip
 learning_resource_types:
