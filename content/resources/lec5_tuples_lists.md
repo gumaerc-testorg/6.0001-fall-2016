@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: This is special file Code for Lecture 5.
-file: /courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/cdf5f8e7f109952655f4d253ed955555_lec5_tuples_lists.py
+file: /ol-ocw-studio-app/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/cdf5f8e7f109952655f4d253ed955555_lec5_tuples_lists.py
 file_size: 4568
 file_type: text/python-source
 learning_resource_types:
