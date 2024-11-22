@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: "This is special file Code for Lecture 9.\r\n"
-file: /courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/bf8e8195044d5f6aefc1a455968e2f3e_lec9_inheritance.py
+file: /ol-ocw-studio-app/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/bf8e8195044d5f6aefc1a455968e2f3e_lec9_inheritance.py
 file_size: 5146
 file_type: text/python-source
 learning_resource_types:

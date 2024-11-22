@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: This is special file Code for Lecture 7.
-file: /courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/abdd1d61892ccce9be2ad84e52004e07_lec7_debug_except.py
+file: /ol-ocw-studio-app/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/abdd1d61892ccce9be2ad84e52004e07_lec7_debug_except.py
 file_size: 5298
 file_type: text/python-source
 learning_resource_types:
