@@ -1,7 +1,7 @@
 ---
 content_type: resource
 description: ''
-file: /courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6123f1f2020a58ca84ed270199535eae_lniF6ys2CIk.srt
+file: /ol-ocw-studio-app/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/6123f1f2020a58ca84ed270199535eae_lniF6ys2CIk.srt
 file_size: 1801
 file_type: application/x-subrip
 learning_resource_types: []
