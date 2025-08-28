@@ -2,7 +2,7 @@
 content_type: resource
 description: This is special file Code for Lecture 1.
 draft: false
-file: /courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/920cc911b6eb5747f2ccd431bbc4306b_lec1.py
+file: /ol-ocw-studio-app/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/920cc911b6eb5747f2ccd431bbc4306b_lec1.py
 file_size: 1277
 file_type: text/python-source
 image_metadata:

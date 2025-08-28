@@ -2,7 +2,7 @@
 content_type: resource
 description: This is special file Code for Lecture 11.
 draft: false
-file: /courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/bdf800867e6762c6758ecd2230178f41_lec11_complexity_part2.py
+file: /ol-ocw-studio-app/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/bdf800867e6762c6758ecd2230178f41_lec11_complexity_part2.py
 file_size: 1316
 file_type: text/python-source
 image_metadata:
