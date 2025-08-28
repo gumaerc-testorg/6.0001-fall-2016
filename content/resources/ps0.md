@@ -3,7 +3,7 @@ content_type: resource
 description: 'This resource contains information regarding introduction to computer
   science and programming in Python: Problem set.'
 draft: false
-file: /courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/7b5294e2c78e0aaf273b4149ec55c1b1_ps0.zip
+file: /ol-ocw-studio-app/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/7b5294e2c78e0aaf273b4149ec55c1b1_ps0.zip
 file_size: 2091784
 file_type: application/zip
 image_metadata:
@@ -11,7 +11,7 @@ image_metadata:
   credit: ''
   image-alt: ''
 learning_resource_types:
-- Assignments
+- Programming Assignments
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ocw_type: OCWFile
 parent_title: Assignments
@@ -26,6 +26,7 @@ video_files:
   video_thumbnail_file: ''
   video_transcript_file: ''
 video_metadata:
+  source: ''
   video_speakers: ''
   video_tags: ''
   youtube_description: ''
